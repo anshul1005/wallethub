@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter email]]>
+    </line>
+    <line>
+      <![CDATA[Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Select Login button]]>
+    </line>
+    <line>
+      <![CDATA[Review confirmation screen is dispalyed]]>
+    </line>
+    <line>
+      <![CDATA[Review entered on previous page is dispalyed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34418" started-at="2018-10-06T10:11:42Z" finished-at="2018-10-06T10:12:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34418" started-at="2018-10-06T10:11:42Z" finished-at="2018-10-06T10:12:16Z">
+      <class name="com.demo.assignment.seleniumTest.TestClassAssignment2">
+        <test-method status="PASS" signature="initiateDemo3()[pri:0, instance:com.demo.assignment.seleniumTest.TestClassAssignment2@62ee68d8]" name="initiateDemo3" is-config="true" duration-ms="12" started-at="2018-10-06T15:41:42Z" finished-at="2018-10-06T15:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDemo3 -->
+        <test-method status="PASS" signature="Test01_LaunchBrowser()[pri:0, instance:com.demo.assignment.seleniumTest.TestClassAssignment2@62ee68d8]" name="Test01_LaunchBrowser" duration-ms="10457" started-at="2018-10-06T15:41:42Z" finished-at="2018-10-06T15:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_LaunchBrowser -->
+        <test-method status="PASS" signature="Test02_SelectLogInButton()[pri:0, instance:com.demo.assignment.seleniumTest.TestClassAssignment2@62ee68d8]" name="Test02_SelectLogInButton" duration-ms="2170" started-at="2018-10-06T15:41:52Z" finished-at="2018-10-06T15:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_SelectLogInButton -->
+        <test-method status="PASS" signature="Test03_EnterCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.demo.assignment.seleniumTest.TestClassAssignment2@62ee68d8]" name="Test03_EnterCredentials" duration-ms="1960" started-at="2018-10-06T15:41:55Z" data-provider="authentication" finished-at="2018-10-06T15:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anshul.garg.188@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anshul@1994]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Enter email]]>
+            </line>
+            <line>
+              <![CDATA[Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Select Login button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test03_EnterCredentials -->
+        <test-method status="PASS" signature="Test04_LaunchProfileTestInsuranceAndGiveRating()[pri:0, instance:com.demo.assignment.seleniumTest.TestClassAssignment2@62ee68d8]" name="Test04_LaunchProfileTestInsuranceAndGiveRating" duration-ms="9678" started-at="2018-10-06T15:41:57Z" finished-at="2018-10-06T15:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04_LaunchProfileTestInsuranceAndGiveRating -->
+        <test-method status="PASS" signature="Test05_WriteReviewFor200Words()[pri:0, instance:com.demo.assignment.seleniumTest.TestClassAssignment2@62ee68d8]" name="Test05_WriteReviewFor200Words" duration-ms="8100" started-at="2018-10-06T15:42:06Z" finished-at="2018-10-06T15:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test05_WriteReviewFor200Words -->
+        <test-method status="PASS" signature="Test06_ConfirmReviewScreen()[pri:0, instance:com.demo.assignment.seleniumTest.TestClassAssignment2@62ee68d8]" name="Test06_ConfirmReviewScreen" duration-ms="57" started-at="2018-10-06T15:42:14Z" finished-at="2018-10-06T15:42:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Review confirmation screen is dispalyed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test06_ConfirmReviewScreen -->
+        <test-method status="PASS" signature="Test07_ConfirmReviewEnteredOnReviewPage()[pri:0, instance:com.demo.assignment.seleniumTest.TestClassAssignment2@62ee68d8]" name="Test07_ConfirmReviewEnteredOnReviewPage" duration-ms="1939" started-at="2018-10-06T15:42:14Z" finished-at="2018-10-06T15:42:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Review entered on previous page is dispalyed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test07_ConfirmReviewEnteredOnReviewPage -->
+      </class> <!-- com.demo.assignment.seleniumTest.TestClassAssignment2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
